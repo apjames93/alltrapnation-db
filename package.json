@@ -1,0 +1,25 @@
+{
+  "name": "alltrapnation-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apjames93/alltrapnation-db.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apjames93/alltrapnation-db/issues"
+  },
+  "homepage": "https://github.com/apjames93/alltrapnation-db#readme",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "gitignore": "^0.6.0",
+    "knex": "^0.11.10",
+    "pg": "^6.1.0"
+  }
+}
