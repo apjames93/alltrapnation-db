@@ -8,7 +8,8 @@ exports.seed = function(knex, Promise) {
         knex('artist_album').insert({artist_id: 3 , album_id: 3}),
         knex('artist_album').insert({artist_id: 4 , album_id: 4}),
         knex('artist_album').insert({artist_id: 5 , album_id: 5}),
-        knex('artist_album').insert({artist_id: 6 , album_id: 6})
+        knex('artist_album').insert({artist_id: 6 , album_id: 6}),
+        knex('artist_album').insert({artist_id: 1 , album_id: 7})
       ]);
     });
 };

@@ -11,7 +11,7 @@ exports.seed = function(knex, Promise) {
         knex('album').insert({albumName: 'JTakeOff album', albumImg: 'https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/14316733_1511059275586585_4462761830743247795_n.jpg?oh=4fd3582411b461344dd4b1a11bcd573c&oe=5846EA94'}),
         knex('album').insert({albumName: 'JAEGER Meric album' ,albumImg: 'https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/14359176_1511059445586568_5332567360321618446_n.jpg?oh=1bc65612b5186e349e1b821f0330293e&oe=587B3812'}),
         knex('album').insert({albumName: 'MickeyValen album', albumImg: 'https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/14291732_1511059938919852_7039530462556351860_n.jpg?oh=cbb08bc1838f24b224250395777e4f0c&oe=583D9140'}),
-
+        knex('album').insert({ albumName: 'Kat Kennedy album', albumImg: 'https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/14329944_1511058505586662_8284670640721050505_n.jpg?oh=842c52a780b50ac23dab98631ee842c1&oe=5884094D'}),
       ]);
     });
 };
